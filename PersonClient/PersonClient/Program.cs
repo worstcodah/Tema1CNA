@@ -5,9 +5,12 @@ namespace PersonClient
 {
     class Program
     {
-        const int NULL = 0;
+        
         static void Main(string[] args)
         {
+            const int NULL = 0;
+
+
             var channel = GrpcChannel.ForAddress("https://localhost:5001");
 
 

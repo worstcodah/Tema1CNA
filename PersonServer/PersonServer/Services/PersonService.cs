@@ -10,6 +10,9 @@ namespace PersonServer.Services
 {
     public class PersonService : GetPersonDataService.GetPersonDataServiceBase
     {
+
+        private static readonly int CurrentYear = 2021;
+
         public string GetPersonGender(string cnp)
         {
             switch (cnp.ElementAt(0))
@@ -35,7 +38,7 @@ namespace PersonServer.Services
         public int GetPersonAge(string cnp)
         {
 
-            var currentYear = 2021;
+
             System.Text.StringBuilder yearOfBirth = new System.Text.StringBuilder();
             switch (cnp.ElementAt(0))
             {
@@ -63,7 +66,7 @@ namespace PersonServer.Services
 
 
 
-            return currentYear - int.Parse(yearOfBirth.ToString());
+            return CurrentYear - int.Parse(yearOfBirth.ToString());
 
 
 
@@ -125,7 +128,7 @@ namespace PersonServer.Services
 
         public void ValidatePersonCnp(Person person)
         {
-            var currentYear = 2021;
+
             Regex regex = new Regex("^[0-9]+$");
             if (!regex.IsMatch(person.Cnp))
             {
@@ -139,7 +142,7 @@ namespace PersonServer.Services
             }
             else if (PersonNotBornYet(person))
             {
-                throw new InvalidPersonCnpException("Conform CNP-ului introdus, persoana s-a nascut dupa 2021 (in " + (currentYear - GetPersonAge(person.Cnp)) + ", nu corespunde realitatii) !");
+                throw new InvalidPersonCnpException("Conform CNP-ului introdus, persoana s-a nascut dupa 2021 (in " + (CurrentYear - GetPersonAge(person.Cnp)) + ", nu corespunde realitatii) !");
             }
             else if (person.Cnp.Length != 13)
             {
