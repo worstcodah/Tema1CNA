@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option csharp_namespace = "PersonServer";
+
+package personservice;
+
+service GetPersonDataService{
+
+  rpc GetPersonData (Person) returns (PersonData);
+}
+
+
+
+message Person{
+string name=1;
+string cnp=2;
+
+}
+
+message PersonData{
+	int32 age=1;
+	string gender=2;
+}

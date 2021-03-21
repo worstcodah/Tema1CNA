@@ -1,0 +1,5 @@
+C:\CNArepos\PersonServer\PersonServer\obj\Debug\netcoreapp3.1\PersonServer.csprojAssemblyReference.cache
+C:\CNArepos\PersonServer\PersonServer\obj\Debug\netcoreapp3.1\PersonServer.AssemblyInfoInputs.cache
+C:\CNArepos\PersonServer\PersonServer\obj\Debug\netcoreapp3.1\PersonServer.AssemblyInfo.cs
+C:\CNArepos\PersonServer\PersonServer\obj\Debug\netcoreapp3.1\PersonServer.csproj.CoreCompileInputs.cache
+C:\CNArepos\PersonServer\PersonServer\obj\Debug\netcoreapp3.1\PersonServer.MvcApplicationPartsAssemblyInfo.cache
