@@ -13,7 +13,7 @@ namespace PersonClient
 
             var client = new GetPersonDataService.GetPersonDataServiceClient(channel);
 
-            Console.WriteLine("Doriti sa va trimiteti datele personale catre server si sa primiti un raspuns? Y/N");
+            Console.WriteLine("Doriti sa va trimiteti datele personale catre server si sa primiti un raspuns? Y/y -> da / N/n -> nu");
             char choice = Console.ReadKey().KeyChar;
             while (choice != 'N' && choice != 'n')
             {

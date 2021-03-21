@@ -125,6 +125,7 @@ namespace PersonServer.Services
 
         public void ValidatePersonCnp(Person person)
         {
+            var currentYear = 2021;
             Regex regex = new Regex("^[0-9]+$");
             if (!regex.IsMatch(person.Cnp))
             {
@@ -138,7 +139,7 @@ namespace PersonServer.Services
             }
             else if (PersonNotBornYet(person))
             {
-                throw new InvalidPersonCnpException("Conform CNP-ului introdus, persoana s-a nascut dupa 2021 (in " + GetPersonAge(person.Cnp) + ", nu corespunde realitatii) !");
+                throw new InvalidPersonCnpException("Conform CNP-ului introdus, persoana s-a nascut dupa 2021 (in " + (currentYear - GetPersonAge(person.Cnp)) + ", nu corespunde realitatii) !");
             }
             else if (person.Cnp.Length != 13)
             {
