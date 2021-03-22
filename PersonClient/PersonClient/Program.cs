@@ -5,10 +5,10 @@ namespace PersonClient
 {
     class Program
     {
-        
+
         static void Main(string[] args)
         {
-            const int NULL = 0;
+
 
 
             var channel = GrpcChannel.ForAddress("https://localhost:5001");
@@ -16,7 +16,7 @@ namespace PersonClient
 
             var client = new GetPersonDataService.GetPersonDataServiceClient(channel);
 
-            Console.WriteLine("Doriti sa va trimiteti datele personale catre server si sa primiti un raspuns? Y/y -> da / N/n -> nu");
+            Console.WriteLine("Doriti sa va trimiteti datele personale catre server si sa primiti un raspuns?\n N/n -> nu\n Orice alta tasta -> da");
             char choice = Console.ReadKey().KeyChar;
             while (choice != 'N' && choice != 'n')
             {
@@ -25,9 +25,9 @@ namespace PersonClient
                 Console.WriteLine("\nCNP:");
                 var cnp = Console.ReadLine();
 
-               var data = client.GetPersonData(new Person { Name = name, Cnp = cnp });
+                var data = client.GetPersonData(new Person { Name = name, Cnp = cnp });
 
-                if (data.Age != NULL)
+                if (!String.IsNullOrEmpty(data.Gender))
                 {
                     Console.WriteLine("\n" + name + " are varsta de " + data.Age + " ani si e de " + data.Gender);
                 }
@@ -35,9 +35,10 @@ namespace PersonClient
                 {
                     Console.WriteLine("Datele introduse nu sunt valide ! (mai multe informatii in consola serverului)");
                 }
-                Console.WriteLine("\n\nDoriti sa va trimiteti datele personale catre server si sa primiti un raspuns? Y/N");
+
+                Console.WriteLine("Doriti sa va trimiteti datele personale catre server si sa primiti un raspuns?\n N/n -> nu\n Orice alta tasta -> da");
                 choice = Console.ReadKey().KeyChar;
-                
+
             }
 
             channel.ShutdownAsync();
