@@ -321,19 +321,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dorin\\.nuget\\packages\\": {}
+    "C:\\Users\\Rafael\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\CNArepos\\PersonClient\\PersonClient\\PersonClient.csproj",
+      "projectUniqueName": "C:\\TemeRepos\\CNA\\Tema1\\PersonClient\\PersonClient\\PersonClient.csproj",
       "projectName": "PersonClient",
-      "projectPath": "C:\\CNArepos\\PersonClient\\PersonClient\\PersonClient.csproj",
-      "packagesPath": "C:\\Users\\dorin\\.nuget\\packages\\",
-      "outputPath": "C:\\CNArepos\\PersonClient\\PersonClient\\obj\\",
+      "projectPath": "C:\\TemeRepos\\CNA\\Tema1\\PersonClient\\PersonClient\\PersonClient.csproj",
+      "packagesPath": "C:\\Users\\Rafael\\.nuget\\packages\\",
+      "outputPath": "C:\\TemeRepos\\CNA\\Tema1\\PersonClient\\PersonClient\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\dorin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Rafael\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -389,7 +389,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

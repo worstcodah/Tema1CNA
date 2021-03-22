@@ -60,10 +60,10 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-      "Grpc.Core/2.36.1": {
+      "Grpc.Core/2.36.4": {
         "type": "package",
         "dependencies": {
-          "Grpc.Core.Api": "2.36.1",
+          "Grpc.Core.Api": "2.36.4",
           "System.Memory": "4.5.3"
         },
         "compile": {
@@ -91,7 +91,7 @@
           }
         }
       },
-      "Grpc.Core.Api/2.36.1": {
+      "Grpc.Core.Api/2.36.4": {
         "type": "package",
         "dependencies": {
           "System.Memory": "4.5.3"
@@ -366,15 +366,15 @@
         "packageIcon.png"
       ]
     },
-    "Grpc.Core/2.36.1": {
-      "sha512": "kHTztLn3MBVZPpp/8KUh5/a4v2rnAP+ASIkewFuf/tZI9QAh7hL94YbGVBbIWXwQemN1qojH0ZqapzjaoR24Zw==",
+    "Grpc.Core/2.36.4": {
+      "sha512": "kkLT6mA7SkMrIuigwM+r/jh4hRQV90RADLqhKvaMxW4T5I87ZAYRNnw91TnNRQ0nz0LPW4xzUfPc1VP3FWSUTg==",
       "type": "package",
-      "path": "grpc.core/2.36.1",
+      "path": "grpc.core/2.36.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "build/net45/Grpc.Core.targets",
-        "grpc.core.2.36.1.nupkg.sha512",
+        "grpc.core.2.36.4.nupkg.sha512",
         "grpc.core.nuspec",
         "lib/net45/Grpc.Core.dll",
         "lib/net45/Grpc.Core.pdb",
@@ -391,14 +391,14 @@
         "runtimes/win-x86/native/grpc_csharp_ext.x86.dll"
       ]
     },
-    "Grpc.Core.Api/2.36.1": {
-      "sha512": "33l9mJnAbSYvO0A+PhGuXldglPghFjNghywgva1FgQYBCh5cDVKggZB6acGcSJqAUdGmoSzbc9J7ysWVOkyy1A==",
+    "Grpc.Core.Api/2.36.4": {
+      "sha512": "zarJ2ZCcTSjMb4x0/J+stzyfcysthNZgKRJjuf5qRGUh80x8gOLPZv5R0AZH2bbpVIzxLd4eOc47UEqtOU+eLw==",
       "type": "package",
-      "path": "grpc.core.api/2.36.1",
+      "path": "grpc.core.api/2.36.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "grpc.core.api.2.36.1.nupkg.sha512",
+        "grpc.core.api.2.36.4.nupkg.sha512",
         "grpc.core.api.nuspec",
         "lib/net45/Grpc.Core.Api.dll",
         "lib/net45/Grpc.Core.Api.pdb",
@@ -750,23 +750,23 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Grpc.AspNetCore >= 2.36.0",
-      "Grpc.Core >= 2.36.1"
+      "Grpc.Core >= 2.36.4"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dorin\\.nuget\\packages\\": {}
+    "C:\\Users\\Rafael\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\CNArepos\\PersonServer\\PersonServer\\PersonServer.csproj",
+      "projectUniqueName": "C:\\TemeRepos\\CNA\\Tema1\\PersonServer\\PersonServer\\PersonServer.csproj",
       "projectName": "PersonServer",
-      "projectPath": "C:\\CNArepos\\PersonServer\\PersonServer\\PersonServer.csproj",
-      "packagesPath": "C:\\Users\\dorin\\.nuget\\packages\\",
-      "outputPath": "C:\\CNArepos\\PersonServer\\PersonServer\\obj\\",
+      "projectPath": "C:\\TemeRepos\\CNA\\Tema1\\PersonServer\\PersonServer\\PersonServer.csproj",
+      "packagesPath": "C:\\Users\\Rafael\\.nuget\\packages\\",
+      "outputPath": "C:\\TemeRepos\\CNA\\Tema1\\PersonServer\\PersonServer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\dorin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Rafael\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -798,7 +798,7 @@
           },
           "Grpc.Core": {
             "target": "Package",
-            "version": "[2.36.1, )"
+            "version": "[2.36.4, )"
           }
         },
         "imports": [
@@ -819,7 +819,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

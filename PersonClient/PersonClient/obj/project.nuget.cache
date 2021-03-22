@@ -1,18 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "bpJUj8B+5lV3QOESi3fjlTpdy/NRWkhq9H9mxPvN7hY/Hd+cA4NXVAZoyggNd2oMzPOnGboHEtSvyBjButy8+w==",
+  "dgSpecHash": "hBsqi2XHmCZ8e4oWKJhrei8Kh+lze4u1RG94QYXnVPpoHJJm/6lLT9sYO9mg/fGjIkO1S7h/ZaZZiAAGyu5XgA==",
   "success": true,
-  "projectFilePath": "C:\\CNArepos\\PersonClient\\PersonClient\\PersonClient.csproj",
+  "projectFilePath": "C:\\TemeRepos\\CNA\\Tema1\\PersonClient\\PersonClient\\PersonClient.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\dorin\\.nuget\\packages\\google.protobuf\\3.15.6\\google.protobuf.3.15.6.nupkg.sha512",
-    "C:\\Users\\dorin\\.nuget\\packages\\grpc.core.api\\2.36.1\\grpc.core.api.2.36.1.nupkg.sha512",
-    "C:\\Users\\dorin\\.nuget\\packages\\grpc.net.client\\2.36.0\\grpc.net.client.2.36.0.nupkg.sha512",
-    "C:\\Users\\dorin\\.nuget\\packages\\grpc.net.common\\2.36.0\\grpc.net.common.2.36.0.nupkg.sha512",
-    "C:\\Users\\dorin\\.nuget\\packages\\grpc.tools\\2.36.1\\grpc.tools.2.36.1.nupkg.sha512",
-    "C:\\Users\\dorin\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.0.3\\microsoft.extensions.logging.abstractions.3.0.3.nupkg.sha512",
-    "C:\\Users\\dorin\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.5.1\\system.diagnostics.diagnosticsource.4.5.1.nupkg.sha512",
-    "C:\\Users\\dorin\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
-    "C:\\Users\\dorin\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512"
+    "C:\\Users\\Rafael\\.nuget\\packages\\google.protobuf\\3.15.6\\google.protobuf.3.15.6.nupkg.sha512",
+    "C:\\Users\\Rafael\\.nuget\\packages\\grpc.core.api\\2.36.1\\grpc.core.api.2.36.1.nupkg.sha512",
+    "C:\\Users\\Rafael\\.nuget\\packages\\grpc.net.client\\2.36.0\\grpc.net.client.2.36.0.nupkg.sha512",
+    "C:\\Users\\Rafael\\.nuget\\packages\\grpc.net.common\\2.36.0\\grpc.net.common.2.36.0.nupkg.sha512",
+    "C:\\Users\\Rafael\\.nuget\\packages\\grpc.tools\\2.36.1\\grpc.tools.2.36.1.nupkg.sha512",
+    "C:\\Users\\Rafael\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.0.3\\microsoft.extensions.logging.abstractions.3.0.3.nupkg.sha512",
+    "C:\\Users\\Rafael\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.5.1\\system.diagnostics.diagnosticsource.4.5.1.nupkg.sha512",
+    "C:\\Users\\Rafael\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\Rafael\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512"
   ],
   "logs": []
 }

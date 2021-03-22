@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\CNArepos\\PersonServer\\PersonServer\\PersonServer.csproj": {}
+    "C:\\TemeRepos\\CNA\\Tema1\\PersonServer\\PersonServer\\PersonServer.csproj": {}
   },
   "projects": {
-    "C:\\CNArepos\\PersonServer\\PersonServer\\PersonServer.csproj": {
+    "C:\\TemeRepos\\CNA\\Tema1\\PersonServer\\PersonServer\\PersonServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\CNArepos\\PersonServer\\PersonServer\\PersonServer.csproj",
+        "projectUniqueName": "C:\\TemeRepos\\CNA\\Tema1\\PersonServer\\PersonServer\\PersonServer.csproj",
         "projectName": "PersonServer",
-        "projectPath": "C:\\CNArepos\\PersonServer\\PersonServer\\PersonServer.csproj",
-        "packagesPath": "C:\\Users\\dorin\\.nuget\\packages\\",
-        "outputPath": "C:\\CNArepos\\PersonServer\\PersonServer\\obj\\",
+        "projectPath": "C:\\TemeRepos\\CNA\\Tema1\\PersonServer\\PersonServer\\PersonServer.csproj",
+        "packagesPath": "C:\\Users\\Rafael\\.nuget\\packages\\",
+        "outputPath": "C:\\TemeRepos\\CNA\\Tema1\\PersonServer\\PersonServer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\dorin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Rafael\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -46,7 +46,7 @@
             },
             "Grpc.Core": {
               "target": "Package",
-              "version": "[2.36.1, )"
+              "version": "[2.36.4, )"
             }
           },
           "imports": [
@@ -67,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
